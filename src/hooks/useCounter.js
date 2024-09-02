@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-export const useCounter = (initialValue = 10) => {
+export const useCounter = (initialValue = 7) => {
   
    const [counter, setCounter] = useState(initialValue)
 
