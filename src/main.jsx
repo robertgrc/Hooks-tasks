@@ -8,13 +8,13 @@ import { createRoot } from 'react-dom/client'
 // import { MultipleCustomHook } from './03-examples/MultipleCustomHook'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Memorize } from './06-memos/Memorize'
+// import { MemoHook } from './06-memos/MemoHook'
 
 
 import './index.css'
-import { MemoHook } from './06-memos/MemoHook'
+import { CallbackHook } from './06-memos/CallbackHook'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+
     {/* <HooksApp /> */}
     {/* <CounterApp /> */}
     {/* <CounterWithCustomHook /> */}
@@ -23,6 +23,10 @@ createRoot(document.getElementById('root')).render(
     {/* <MultipleCustomHook /> */}
     {/* <FocusScreen /> */}
     {/* <Memorize /> */}
-    <MemoHook />
-  </StrictMode>,
+    {/* <MemoHook /> */}
+
+
+
+createRoot(document.getElementById('root')).render(
+    <CallbackHook />
 )
