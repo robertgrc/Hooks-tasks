@@ -9,10 +9,11 @@ import { createRoot } from 'react-dom/client'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Memorize } from './06-memos/Memorize'
 // import { MemoHook } from './06-memos/MemoHook'
+// import { CallbackHook } from './06-memos/CallbackHook'
 
 
 import './index.css'
-import { CallbackHook } from './06-memos/CallbackHook'
+import { Padre } from './07-tarea-memo/Padre'
 
 
     {/* <HooksApp /> */}
@@ -24,9 +25,10 @@ import { CallbackHook } from './06-memos/CallbackHook'
     {/* <FocusScreen /> */}
     {/* <Memorize /> */}
     {/* <MemoHook /> */}
+    // <CallbackHook />
 
 
 
 createRoot(document.getElementById('root')).render(
-    <CallbackHook />
+    <Padre />
 )
